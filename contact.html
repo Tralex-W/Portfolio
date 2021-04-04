@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontaktiere Mich</title>
+	<link rel="stylesheet" href="/CSS/contact.css">
+	<link rel="stylesheet" href="/CSS/style.css">
+</head>
+<body>
+	<!--Loading Animation-->
+	<div class='spinner-wrapper'>
+		<div class="spinner"></div>
+	</div>
+	<nav class="nav">
+	    <a href="/HTML/index.html" class="logo">Eric</a>
+	    <div class="toggle"></div>
+	    <ul class="menu">
+	        <li ><a href="#home" class="active">Home</a></li>	
+	        <li><a class="f" id="about" href="#port">About</a></li>	
+	        <li><a class="f" id="skills" href="#port3">Skills</a></li>	
+	        <li><a class="f" id="projekte" href="#port2">Projekte</a></li>		
+	        <li><a class="f" id="kontakt" href="/HTML/contact.html">Kontakt</a></li>	
+	    </ul>
+	</nav>
+	<section id="contact-form">
+	<form>
+	    <div class="contact-left">
+	        <h1 class="c-l-heading"><font style="border-bottom: 3px solid #ffffff;">Schre</font>ib mir</h1>
+	        <div class="f-name">
+	            <font >Name</font>
+	            <input type="text" placeholder="Ganzer Name"/>
+	        </div>
+	        <div class="f-email">
+	            <font >Email</font>
+	            <input type="email" placeholder="max.mustermann@gmail.com"/>
+	        </div>
+	    </div>
+	    <div class="contact-right">
+	        <div class="message">
+	            <font >Message</font>
+	            <textarea name="message" rows="5" cols="20" placeholder="Schreibe Nachricht..."></textarea>
+	        </div>
+	        <button>submit</button>
+		</div>
+</section>
+<script>
+    let spinnerWrapper = document.querySelector('.spinner-wrapper');
+
+    window.addEventListener('load', function () {
+         spinnerWrapper.style.display = 'none';
+        spinnerWrapper.parentElement.removeChild(spinnerWrapper);
+    });
+</script>
+</body>
+</html>

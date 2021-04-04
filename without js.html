@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Erics Portfolio</title>
+	<link rel="stylesheet" href="/CSS/style.css">
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+	<link rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/c82ab85d43.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="/CSS/projekte.css">
+</head>
+</head>
+
+<body>
+	<!--Loading Animation-->
+	<div class='spinner-wrapper'>
+		<div class="spinner"></div>
+	</div>
+	<!--navigation-->
+	<nav class="nav">
+		<a href="#home" class="logo">Eric</a>
+		<div class="toggle"></div>
+		<ul class="menu">
+			<li><a href="#home" class="active">Home</a></li>
+			<li><a class="f" id="about" href="#port">About</a></li>
+			<li><a class="f" id="skills" href="#port3">Skills</a></li>
+			<li><a class="f" id="projekte" href="#port2">Projekte</a></li>
+			<li><a class="f" id="kontakt" href="/HTML/contact.html">Kontakt</a></li>
+		</ul>
+	</nav>
+
+	<!-- home section start -->
+	<section class="home" id="home">
+		<p id="port"></p>
+		<p id="port2"></p>
+		<p id="port3"></p>
+		<div class="max-width">
+			<div class="home-content">
+				<div class="text-1">Mein Name ist </div>
+				<div class="text-2">Eric Wramling</div>
+				<div class="text-3">Und ich bin <span class="typing"></span></div>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- About Section-->
+	<div class="about-container">
+		<img src="" alt="Me">
+		<div class="about-text">
+			<p id="about">About Me</p>
+			<p>Devolper & Artist</p>
+			<p>Hey, mein Name ist Eric. Ich bin 14 Jahre alt, hobby Front-End Developer und Designer. Am liebsten
+				erstelle ich innovative Front-End deisgns oder arbeite an kleinen Spielen. Über die Letzten Jahre habe
+				ich mir diverse Pogramme wie z.B Adobe Photoshop, Illustrator, After Effects, sowie verschiedene
+				Programmiersprachen, also Python, CSS, Java Script und HTML selber beigetracht. Mehr zu meinen selbst
+				geschriebenen Pogramme oder abstrakten Grafiken, findest du weiter unten, bei den Projekten. </p>
+			<br><br>
+			<button id="ktn-button"><a href="/contact.html" style="color: white;">Kontaktiere mich</a></button>
+		</div>
+	</div>
+	<!--Skills-->
+	<ul class="inner">
+		<div class="header">
+			<h1>My Skills</h1>
+		</div>
+		<div class="container" id="html">
+			<div class="skills-box">
+				<div class="skill-titel">
+					<div class="img">
+						<img src="/images/HTML5.png" alt="">
+					</div>
+					<h3>HTML 5</h3>
+				</div>
+				<p>Auch wenn HTML als die leichteste "Programmiersprache" gilt, bietet HTML viele möglichkeiten und ist
+					also Front-End Dev. ein durchaus sehr wichtiges tool. Denn jede Webside, besteht aus einem HTML
+					Code. Zwar sieht einze kahler Code nicht besonders schön aus und bringt keine Logik mit sich.
+					Jedoch bringt er die Grundlage für weitere Sprachen wie CSS oder Java Script. </p>
+			</div>
+		</div>
+		<div class="container" id="css">
+			<div class="skills-box">
+				<div class="skill-titel">
+					<div class="img">
+						<img src="/images/css.png" alt="">
+					</div>
+					<h3>CSS </h3>
+				</div>
+				<p>Zwar ist CSS keine notwendige "Sprache" beim erstellenen einer Webside, jedoch lässt CSS die Seite
+					besser aussehen. Denn CSS ist eine reine "styling language". D.h sie bringt die Webside nicht zum
+					Funktionieren, sonder macht z.B den Hintergrund blau oder verschiebt einen Knopf. Um zu sehen, wie
+					wichtig CSS trotz seiner nicht verpflichtenden nutzung wie es bei HTML der der Fall ist, ist. Kannst
+					du auf den unteren Knopf drücken. Die komplett geleiche Seite, wir dir dann ohne CSS angezeigt.</p>
+			</div>
+			<button class="css-btn">
+				<a href="/HTML/without css.html" class="css-btn">Click Me</a style="color: white;">
+			</button>
+		</div>
+		<div class="container" id="js">
+			<div class="skills-box">
+				<div class="skill-titel">
+					<div class="img">
+						<img src="/images/js.png" alt="">
+					</div>
+					<h3>Java Script</h3>
+				</div>
+				<p> Java Script ist die erste "richtige Programmiersprache" auf dieser Liste. Den Java Script, hat im
+					Vergleich zu den vorigen Sprachen Logic, man kann z.B Bedingungen aufstellen oder Sachen berechnen
+					lass. Mit HTML und CSS geht dies nicht, da sie reine display "Spraches" sind. Auf diese Seite spielt
+					der Js Part keine große Rolle, er ist jediglich für das Verändern der Navbar, die Projekt-Box,
+					die selbst schreibende Schrift und einzelne andere kleine Elemente verantwortlich. Mit dem unteren Knopf, kannst du nun ausprobieren,
+					wie diese Seite ohne Java Script ausiseht/funktioniert.</p>
+			</div>
+			<button class="css-btn">
+				<a href="/HTML/without js.html" class="css-btn">Click Me</a style="color: white;">
+			</button>
+		</div>
+		<div class="container" id="python">
+			<div class="skills-box">
+				<div class="skill-titel">
+					<div class="img">
+						<img src="/images/python.png" alt="">
+					</div>
+					<h3>Python</h3>
+				</div>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam doloremque reiciendis fuga molestiae,
+					nostrum voluptatibus enim aspernatur a ipsum laboriosam facere qui cupiditate, accusantium libero!
+					Nihil obcaecati nostrum praesentium consequatur.</p>
+			</div>
+		</div>
+	</ul>
+	<!--Footer-->
+	<footer class="footer">
+		<p class="footer__title">Eric</p>
+		<p>&copy; 2021 copyright all rights reserved</p>
+	</footer>
+	<!--Footer End-->
+	<div class="demo-wrapper">
+		<h1 class="demo-title">Projekte</h1>
+		<section class="slider-wrapper">
+			<input type="radio" name="slides" checked="checked" id="slide_1" hidden="">
+			<input type="radio" name="slides" id="slide_2" hidden="">
+			<input type="radio" name="slides" id="slide_3" hidden="">
+			<input type="radio" name="slides" id="slide_4" hidden="">
+			<input type="radio" name="slides" id="slide_5" hidden="">
+
+			<ul class="slider-slides">
+				<li class="slider-slide">
+					<section class="slider-content">
+						<h2 class="slider-title">Slide</h2>
+						<p class="demo-text">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit.
+							Quisquam expedita mollitia esse voluptatibus modi hic ex
+							officiis veniam dolor minima accusantium accusamus laudantium
+							iste, tempore fugit libero maxime iusto neque.
+						</p>
+
+						<a class="demo-btn" href="#!">Learn more</a>
+					</section>
+
+					<div class="slider-img-wrapper">
+						<img class="slider-image" src="https://picsum.photos/id/16/1920/400" alt="">
+					</div>
+				</li>
+
+				<li class="slider-slide">
+					<section class="slider-content">
+						<h2 class="slider-title">Slide</h2>
+						<p class="demo-text">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit.
+							Quisquam expedita mollitia esse voluptatibus modi hic ex
+							officiis veniam dolor minima accusantium accusamus laudantium
+							iste, tempore fugit libero maxime iusto neque.
+						</p>
+
+						<a class="demo-btn" href="#!">Learn more</a>
+					</section>
+
+					<div class="slider-img-wrapper">
+						<img class="slider-image" src="https://picsum.photos/id/24/1920/400" alt="">
+					</div>
+				</li>
+
+				<li class="slider-slide">
+					<section class="slider-content">
+						<h2 class="slider-title">Slide</h2>
+						<p class="demo-text">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit.
+							Quisquam expedita mollitia esse voluptatibus modi hic ex
+							officiis veniam dolor minima accusantium accusamus laudantium
+							iste, tempore fugit libero maxime iusto neque.
+						</p>
+
+						<a class="demo-btn" href="">Learn more</a>
+					</section>
+
+					<div class="slider-img-wrapper">
+						<img class="slider-image" src="https://picsum.photos/id/26/1920/400" alt="">
+					</div>
+				</li>
+
+				<li class="slider-slide">
+					<section class="slider-content">
+						<h2 class="slider-title">Slide</h2>
+						<p class="demo-text">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit.
+							Quisquam expedita mollitia esse voluptatibus modi hic ex
+							officiis veniam dolor minima accusantium accusamus laudantium
+							iste, tempore fugit libero maxime iusto neque.
+						</p>
+
+						<a class="demo-btn" href="">Learn more</a>
+					</section>
+
+					<div class="slider-img-wrapper">
+						<img class="slider-image" src="https://picsum.photos/id/28/1920/400" alt="">
+					</div>
+				</li>
+
+				<li class="slider-slide">
+					<section class="slider-content">
+						<h2 class="slider-title">Slide</h2>
+						<p class="demo-text">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit.
+							Quisquam expedita mollitia esse voluptatibus modi hic ex
+							officiis veniam dolor minima accusantium accusamus laudantium
+							iste, tempore fugit libero maxime iusto neque.
+						</p>
+
+						<a class="demo-btn" href="">Learn more</a>
+					</section>
+
+					<div class="slider-img-wrapper">
+						<img class="slider-image" src="https://picsum.photos/id/34/1920/400" alt="">
+					</div>
+				</li>
+
+				<li class="slider-slide">
+					<section class="slider-content">
+						<h2 class="slider-title">Slide #6</h2>
+						<p class="demo-text">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit.
+							Quisquam expedita mollitia esse voluptatibus modi hic ex
+							officiis veniam dolor minima accusantium accusamus laudantium
+							iste, tempore fugit libero maxime iusto neque.
+						</p>
+
+						<a class="demo-btn" href="">Learn more</a>
+					</section>
+
+					<div class="slider-img-wrapper">
+						<img class="slider-image" src="https://picsum.photos/id/32/1920/400" alt="">
+					</div>
+				</li>
+			</ul>
+
+			<div class="slider-arrows">
+				<label class="slider-arrow" for="slide_1"></label>
+				<label class="slider-arrow" for="slide_2"></label>
+				<label class="slider-arrow" for="slide_3"></label>
+				<label class="slider-arrow" for="slide_4"></label>
+				<label class="slider-arrow" for="slide_5"></label>
+				<label class="slider-arrow -go-to-first" for="slide_1"></label>
+				<label class="slider-arrow -go-to-last" for="slide_5"></label>
+			</div>
+
+			<div class="slider-nav">
+				<label class="slider-nav-item" for="slide_1"></label>
+				<label class="slider-nav-item" for="slide_2"></label>
+				<label class="slider-nav-item" for="slide_3"></label>
+				<label class="slider-nav-item" for="slide_4"></label>
+				<label class="slider-nav-item" for="slide_5"></label>
+			</div>
+		</section>
+	</div>
+
+	<script src="/src.a2b27638.js"></script>
+
+	<!--Contact-->
+	<section id="contact-btn">
+		<h1 class="c-b-heading">Kontaktiere mich
+		</h1>
+		<button>
+			<a href="contact.html" class="button-contact" style="color: white;">Kontaktiere mich</a>
+		</button>
+	</section>
+	<!--Social-Icons-->
+	<div class="middle">
+		<a class="btn" href="#">
+			<i class="fab fa-github"></i>
+		</a>
+		<a class="btn" href="#">
+			<i class="fab fa-youtube"></i>
+		</a>
+		<a class="btn" href="https://www.instagram.com/eric_jaloley">
+			<i class="fab fa-instagram"></i>
+		</a>
+	</div>
+
+	<script>
+		let spinnerWrapper = document.querySelector('.spinner-wrapper');
+
+		window.addEventListener('load', function () {
+			spinnerWrapper.style.display = 'none';
+			spinnerWrapper.parentElement.removeChild(spinnerWrapper);
+		});
+	</script>
+</body>
+
+</html>
